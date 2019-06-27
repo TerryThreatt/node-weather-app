@@ -69,13 +69,6 @@ app.get('/weather', (req, res) =>{
     })
 })
 
-
-    console.log(req.query.search) 
-    res.send({ 
-        products: []
-    })
-
-
 app.get('/help/*', (req, res) => { 
     res.render('404', { 
         title: '404',
