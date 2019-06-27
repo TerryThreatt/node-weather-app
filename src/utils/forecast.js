@@ -10,7 +10,7 @@ request({ url, json: true }, (error, { body }) => {
     } else if (body.error) { 
         callback('Unable to find location.', undefined);
     } else {
-        callback(undefined,body.daily.data[0].summary,body.currently.precipProbability * 100, body.currently.temperature + ' degrees'
+        callback(undefined,body.daily.data[0].summary, body.currently.precipProbability * 100, body.currently.temperature + ' degrees'
         );
      }
  });
