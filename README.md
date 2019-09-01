@@ -19,8 +19,11 @@ This app is deployed with Heroku
 ## Built With
 
 NodeJS - web framework used
+
 ExpressJS - web framework used
+
 Mapbox - geolocation
+
 Darksky - weather api
 
 ## Author
